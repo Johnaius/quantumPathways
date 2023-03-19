@@ -3558,6 +3558,10 @@ button:disabled,
 	text-transform: uppercase;
 }
 
+.onclick-menu>a {
+	margin-left: 1em;
+}
+
 .onclick-menu {
 	display: inline-block;
 	position: relative;

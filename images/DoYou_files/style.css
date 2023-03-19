@@ -1,0 +1,139 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+    margin-top: 3rem;
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+/* .page-section {
+    background-color: red;
+    height: 40%;
+} */
+
+.btn-nav {
+    margin-right: .5rem;
+}
+
+
+
+.home {
+    border: 2px solid black;
+    min-height: 80vh;
+}
+
+/* .card-img-top{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+} */
+
+.btn-liked {
+    color: #f03566;
+}
+
+.btn-bookmarked {
+    background: #ffff;
+}
+
+.btn-sign-in {
+    background-color: #e94135;
+    color: #ffff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* The style below is just for the appearance of the example div */
+
+.style {
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+    padding-top: calc(50vh - 50px);
+    margin-left: 5vw;
+
+}
+
+.style img {
+    color: #fff;
+    font-size: 50px;
+}
