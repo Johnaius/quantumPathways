@@ -292,6 +292,8 @@ h6 a {
 	text-decoration: none;
 }
 
+
+
 h2 {
 	font-size: 1.35em;
 	line-height: 1.75em;
@@ -3768,8 +3770,9 @@ body.is-menu-visible #menu {
 }
 
 #header.alt h1 {
+
 	pointer-events: none;
-	opacity: 0;
+
 }
 
 /* Banner */
